@@ -15,7 +15,7 @@ public class CreateFile {
             File file = new File("~/kente/usd_cny");
             file.mkdirs();
         } else if (OsInfo.isWindows()) {
-            File file = new File("C:/kente/usd_cny");
+            File file = new File("D:/kente/usd_cny");
             file.mkdirs();
         }
     }
